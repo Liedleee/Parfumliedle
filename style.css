@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Italiana&display=swap');
+body{
+    font-family: 'Inknut antiqua';
+    background-image: url(assets/Frame\ 1\ \(1\).png);
+    background-size: 100%;
+}
+.brand{
+    text-align: center;
+    font-family: 'Italiana';
+    font-weight: 600;
+    font-size: 250%;
+    color: white;
+}
+.navbar{
+    text-align: center;
+    color: white;
+}
+.navbar li{
+    list-style: none;
+    padding: 50px;
+    font-size: 20px;
+}
+.jejer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+.garis{
+    width: 250px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.isi{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.pertama{
+    margin-left: 50px;
+    margin-bottom: 1px
+}
+.kedua{
+    margin-left: 100px;
+}
+button{
+    color: white;
+    background-color: #0A0F15;
+    margin-left: 200px;
+}
+input{
+    color: white;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.input-container {
+    position: relative;
+    left: 70%;
+    margin-top: -10%;
+    width: 200px;  /* Lebar input */
+  }
+  
+  .input-underline {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px;  /* Memberi ruang untuk gambar di sebelah kanan */
+    border: none;             /* Menghilangkan border default */
+    border-bottom: 2px solid #000; /* Garis bawah */
+    outline: none;            /* Menghilangkan outline saat input aktif */
+  }
+  
+  .input-underline:focus {
+    border-bottom: 2px solid #007BFF; /* Mengubah warna garis saat input aktif */
+  }
+  
+  .input-icon {
+    position: absolute;
+    right: 10px;  /* Menempatkan gambar 10px dari sisi kanan input */
+    top: 50%;     /* Menempatkan gambar di tengah secara vertikal */
+    transform: translateY(-50%);
+    width: 20px;  /* Ukuran gambar */
+    height: 20px;
+  }
+
+  .footer {
+    background-color: #fff; /* Latar belakang putih */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Spasi antara kiri dan kanan */
+    align-items: center; /* Sejajarkan secara vertikal */
+    bottom: 0%;
+    position: absolute;
+    width: 98%;
+  }
+  
+  .footer-left a {
+    margin-right: 20px; /* Jarak antara About Us dan Privacy Policy */
+    text-decoration: none;
+    color: #000; /* Warna teks hitam */
+    font-style: bold;
+    font-size: 14px; /* Ukuran font */
+  }
+  
+  .footer-right {
+    display: flex;
+    gap: 25px; /* Jarak antar icon social media */
+  }
+  
+  .social-icon {
+    width: 30px; /* Ukuran icon media sosial */
+    height: 30px;
+  }
+  
