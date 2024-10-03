@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Italiana&display=swap');
 body{
     font-family: 'Inknut antiqua';
-    background-image: url(assets/Frame\ 1\ \(1\).png);
+    background-image: url(assets/home.jpg);
+    align-items: center;
     background-size: 100%;
 }
 .brand{
     text-align: center;
     font-family: 'Italiana';
-    font-weight: 600;
+    font-weight:300;
     font-size: 250%;
     color: white;
 }
@@ -51,11 +52,13 @@ a{
 }
 button{
     color: white;
+    font-family: 'Inknut antiqua';
+    font-weight: 300;
     background-color: #0A0F15;
     margin-left: 200px;
 }
 input{
-    color: white;
+    color: black;
     background-color: white;
     border-radius: 20px;
 }
